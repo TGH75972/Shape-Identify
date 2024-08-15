@@ -1,0 +1,71 @@
+body {
+    font-family: Verdana, sans-serif;
+    background-color: #0d0d0d;
+    color: #ffffff;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    text-align: center;
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #1a1a1a;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+    border: 2px solid #ffffff;
+}
+
+#shape-container {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+#shapeCanvas {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+}
+
+#options {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.shape-btn {
+    font-family: Verdana, sans-serif;
+    background-color: #ffdfba;
+    color: #000000;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin: 10px;
+}
+
+.shape-btn:hover {
+    background-color: #ffd699;
+}
+
+.shape-btn:active {
+    background-color: #ffcc99;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #ffdfba;
+    font-weight: bold;
+}
